@@ -160,8 +160,17 @@ section {
     display: flex;
     justify-content: center;
     gap: 5rem;
-    height: 80vh;
+    height: 80vh; 
+    position: relative;
 }
+.arrow-profile {
+  position: absolute;
+  bottom: 2rem;
+  right: -5rem; /* adjust placement */
+  cursor: pointer;
+  height: 3rem;
+}
+
 
 .section__pic-container {
     display: flex;
